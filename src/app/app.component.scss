@@ -31,11 +31,11 @@
   font-size: 14px;
   &.valid {
     background-color: #1a73e8;
-  }
-  &:hover {
-    transition: all linear .2s;
-    padding: 10px;
-    font-size: 16px;
+    &:hover {
+      transition: all linear .2s;
+      padding: 10px;
+      font-size: 16px;
+    }
   }
 }
 
