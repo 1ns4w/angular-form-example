@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-form-example';
+  registerData = {
+    name: '',
+    email: '',
+    password: '',
+  }
+  onRegister() {
+    console.log(this.registerData)
+  }
 }
